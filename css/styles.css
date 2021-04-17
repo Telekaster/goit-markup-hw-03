@@ -310,3 +310,11 @@ color: var(--black-text-color);
 .main-content-card li:not(:last-child) {
   padding-right: 30px;
 }
+
+.list-work {
+  display: flex;
+  border: solid tomato;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
