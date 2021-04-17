@@ -41,7 +41,7 @@ button:target {
 
 h2 {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 36px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--black-text-color);
@@ -283,11 +283,15 @@ color: var(--black-text-color);
 
 /* Hero */
 
+.hero {
+  padding-bottom: 30px;
+}
+
 .hero-section {
   border: solid tomato;
   padding-top: 200px;
-  padding-bottom: 280px;
   background: #2F303A;
+  height: 600px;
 }
 
 .btn {
@@ -317,4 +321,43 @@ color: var(--black-text-color);
   justify-content: space-between;
   margin-top: 50px;
   margin-bottom: 94px;
+}
+
+.team {
+  border: solid tomato;
+}
+.team-head {
+  margin: auto;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.list-card {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-between;
+
+}
+
+.list-card li {
+  flex-basis: calc(100% / 4)
+}
+
+.list-card > li {
+  background-color: #FFFFFF;
+}
+
+.list-card > li > h4 {
+  margin-top: 30px;
+}
+
+.list-card > li > p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.list-card > li {
+  max-width: 270px;
 }
