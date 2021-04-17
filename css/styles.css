@@ -66,6 +66,8 @@ h4 {
 }
 
 h5 {
+  margin-top: 20px;
+  margin-bottom: 4px;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -370,4 +372,38 @@ footer {
 
 .footer-list li:not(:last-child){
   padding-bottom: 9px;
+}
+
+/* Portfolio */
+
+.portfolio-buttons {
+  display: flex;
+  margin-top: 94px;
+  margin-bottom: 56px;
+  justify-content: center;
+}
+
+.portfolio-buttons li:not(:last-child) {
+  margin-right: 8px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+.portfolio-list li:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.portfolio-list > li > h5 {
+  padding-left: 24px;
+}
+
+.portfolio-list > li > p {
+  padding-left: 24px;
+}
+
+.examples {
+  padding-bottom: 94px;
 }
