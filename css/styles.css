@@ -390,10 +390,15 @@ footer {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  flex-basis: calc(100% / 3);
   justify-content:space-between;
 }
-.portfolio-list li:not(:last-child) {
+.portfolio-list li {
   margin-bottom: 30px;
+}
+
+.portfolio-list > li {
+  border: 1px solid #EEEEEE;
 }
 
 .portfolio-list > li > h5 {
@@ -402,6 +407,7 @@ footer {
 
 .portfolio-list > li > p {
   padding-left: 24px;
+  padding-bottom: 20px;
 }
 
 .examples {
