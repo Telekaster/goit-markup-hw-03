@@ -190,6 +190,7 @@ cursor: pointer;
 
 .team {
   background: #f5f4fa;
+  padding-bottom: 94px;
 }
 
 .logo-revers {
@@ -245,15 +246,16 @@ color: var(--black-text-color);
 
 /* Header */
 .container {
-  width: 1170px;
+  width: 1200px;
   margin: auto;
-  padding: 0;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .header-nav nav {
   display: flex;
   align-items: center;
-  border: solid tomato;
+  border-bottom: 1px solid #ECECEC;
 }
 
 /* Navigation */
@@ -288,7 +290,6 @@ color: var(--black-text-color);
 }
 
 .hero-section {
-  border: solid tomato;
   padding-top: 200px;
   background: #2F303A;
   height: 600px;
@@ -306,7 +307,6 @@ color: var(--black-text-color);
 }
 
 .main-content-card {
-  border: solid tomato;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -317,15 +317,11 @@ color: var(--black-text-color);
 
 .list-work {
   display: flex;
-  border: solid tomato;
   justify-content: space-between;
   margin-top: 50px;
   margin-bottom: 94px;
 }
 
-.team {
-  border: solid tomato;
-}
 .team-head {
   margin: auto;
   padding-top: 94px;
@@ -360,4 +356,18 @@ color: var(--black-text-color);
 
 .list-card > li {
   max-width: 270px;
+}
+
+footer {
+  padding-top: 60px;
+  padding-left: 2px;
+}
+
+.footer-list {
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.footer-list li:not(:last-child){
+  padding-bottom: 9px;
 }
