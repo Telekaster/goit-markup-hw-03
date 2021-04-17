@@ -8,6 +8,17 @@ html {
 --black-text-color: #212121;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+margin: 0;
+}
+
+
 body {
   font-family: Roboto; sans-serif;
   color: var(--main-text-color);
@@ -234,7 +245,7 @@ color: var(--black-text-color);
 
 /* Header */
 .container {
-  width: 1200px;
+  width: 1170px;
   margin: auto;
   padding: 0;
 }
@@ -270,3 +281,32 @@ color: var(--black-text-color);
   margin-right: 50px;
 }
 
+/* Hero */
+
+.hero-section {
+  border: solid tomato;
+  padding-top: 200px;
+  padding-bottom: 280px;
+  background: #2F303A;
+}
+
+.btn {
+  margin: auto;
+}
+
+/* Наши сильные стороны */
+
+.card-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content-card {
+  border: solid tomato;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.main-content-card li:not(:last-child) {
+  padding-right: 30px;
+}
