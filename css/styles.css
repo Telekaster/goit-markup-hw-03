@@ -59,6 +59,7 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--black-text-color);
+  padding-bottom: 10px;
 }
 
 h4 {
@@ -83,6 +84,9 @@ address{
 
 footer {
   background: var(--background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+
 }
 
 /* Основной текст */
@@ -194,8 +198,8 @@ cursor: pointer;
 
 /* Наша команда */
 .team-discrip {
-  margin-top: 10px;
-  margin-bottom: 30px;
+  padding-top: 5px;
+  padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -358,18 +362,8 @@ max-width: calc(100% / 4);
 }
 
 .team-names {
-  margin-top: 30px;
-}
-
-
-.footer-class {
-  padding-top: 60px;
-  padding-left: 2px;
-}
-
-.footer-list {
-  padding-top: 20px;
-  padding-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 5px;
 }
 
 .footer-list li:not(:last-child){
@@ -408,4 +402,8 @@ max-width: calc(100% / 4);
 
 .examples {
   padding-bottom: 94px;
+}
+
+.text {
+
 }
