@@ -148,6 +148,8 @@ background: var(--background-color);
 
 
 .btn {
+margin: auto;
+padding: 10px 32px 10px 32px;
 font-weight: bold;
 font-size: 16px;
 line-height: 1.88;
@@ -312,12 +314,9 @@ padding-right: 24px;
 
 .hero-section {
   padding-top: 200px;
+  padding-bottom: 200px;
   background: var(--background-color);
-  height: 600px;
-}
-
-.btn {
-  margin: auto;
+  /* height: 600px; */
 }
 
 /* Наши сильные стороны */
