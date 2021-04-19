@@ -171,7 +171,12 @@ cursor: pointer;
   color: var(--black-text-color);
   background: var(--background-color-grey);
   border-radius: 4px;
-  cursor: pointer
+  cursor: pointer;
+  /* width: 73px; */
+  height: 38px;
+  border: 0;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 .visually-hidden {
@@ -270,6 +275,7 @@ padding-right: 24px;
 .header-nav nav {
   display: flex;
   align-items: center;
+  height: 80px;
   border-bottom: 1px solid var(--nav-border);
 }
 
@@ -381,7 +387,7 @@ max-width: calc(100% / 4);
 .portfolio-buttons {
   display: flex;
   margin-top: 94px;
-  margin-bottom: 56px;
+  margin-bottom: 50px;
   justify-content: center;
 }
 
