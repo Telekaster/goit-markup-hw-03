@@ -71,8 +71,6 @@ h4 {
 }
 
 h5 {
-  margin-top: 20px;
-  margin-bottom: 4px;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -189,6 +187,8 @@ cursor: pointer;
 
 /* Наша команда */
 .team-discrip {
+  margin-top: 10px;
+  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -229,6 +229,9 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: var(--black-text-color);
+margin: auto;
+padding-left: 24px;
+padding-right: 24px;
 }
 
 .active-page {
@@ -344,33 +347,22 @@ color: var(--black-text-color);
 .list-card {
   display: flex;
   flex-wrap: wrap;
+  flex-basis: calc(100% / 4)
   margin: auto;
   justify-content: space-between;
-
 }
 
 .list-card li {
-  flex-basis: calc(100% / 4)
+background-color: var(--background-color-white);
+max-width: calc(100% / 4);
 }
 
-.list-card > li {
-  background-color: var(--background-color-white);
-}
-
-.list-card > li > h4 {
+.team-names {
   margin-top: 30px;
 }
 
-.list-card > li > p {
-  margin-top: 10px;
-  margin-bottom: 30px;
-}
 
-.list-card > li {
-  max-width: 270px;
-}
-
-footer {
+.footer-class {
   padding-top: 60px;
   padding-left: 2px;
 }
@@ -403,19 +395,13 @@ footer {
   flex-basis: calc(100% / 3);
   justify-content:space-between;
 }
-.portfolio-list li {
+.portfolio-list-item {
   margin-bottom: 30px;
-}
-
-.portfolio-list > li {
   border: 1px solid var(--portfolio-border);
 }
 
-.portfolio-list > li > h5 {
-  padding-left: 24px;
-}
 
-.portfolio-list > li > p {
+.portfolio-list-text {
   padding-left: 24px;
   padding-bottom: 20px;
 }
