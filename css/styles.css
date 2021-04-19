@@ -204,7 +204,7 @@ cursor: pointer;
 
 .team {
   background: var(--background-color-grey);
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
 }
 
 .logo-revers {
@@ -263,7 +263,8 @@ padding-right: 24px;
 
 /* Header */
 .section {
-  max-width: 1600px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .footer {
   max-width: 1600px;
@@ -326,10 +327,6 @@ padding-right: 24px;
   justify-content: space-between;
 }
 
-.main-content-card {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .main-content-card li:not(:last-child) {
   padding-right: 30px;
@@ -344,8 +341,6 @@ padding-right: 24px;
 
 .team-head {
   margin: auto;
-  padding-top: 94px;
-  padding-bottom: 50px;
   text-align: center;
 }
 
