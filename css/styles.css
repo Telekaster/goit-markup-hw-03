@@ -23,18 +23,21 @@ p {
 margin: 0;
 }
 
+img {
+  display: block;
+}
 
 body {
   font-family: Roboto, sans-serif;
   color: var(--main-text-color);
 }
 
-a {
+.link {
   text-decoration: none;
 }
 
-a:hover,
-a:target{
+.link:hover,
+.link:target {
   color: var(--brandcolor);
 }
 
@@ -200,7 +203,6 @@ border: 0;
 /* Наша команда */
 .team-discrip {
   padding: 5px 10px 30px 10px;
-
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -209,10 +211,11 @@ border: 0;
 
 .team {
   background: var(--background-color-grey);
-  /* padding-bottom: 94px; */
 }
 
 .logo-revers {
+  display: block;
+  padding-bottom: 20px;
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -270,6 +273,7 @@ padding: 20px 24px 4px 24px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .footer {
   max-width: 1600px;
 }
@@ -283,7 +287,8 @@ padding: 20px 24px 4px 24px;
   display: flex;
   align-items: center;
   height: 80px;
-  /* border-bottom: 1px solid var(--nav-border); */
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* Navigation */
@@ -292,11 +297,11 @@ padding: 20px 24px 4px 24px;
   margin-left: 93px;
 }
 
-.list-nav li:not(:last-child) {
+.list-nav-item:not(:last-child) {
   margin-right: 50px;
 }
 
-.list-nav a {
+.list-nav-item-link {
   display: block;
   padding: 20px;
 }
@@ -307,7 +312,7 @@ padding: 20px 24px 4px 24px;
   margin-left: auto;
 }
 
-.list-phone li:not(:last-child){
+.list-phone-item:not(:last-child){
   margin-right: 50px;
 }
 
@@ -332,7 +337,7 @@ padding: 20px 24px 4px 24px;
 }
 
 
-.main-content-card li:not(:last-child) {
+.main-content-card-item {
   padding-right: 30px;
 }
 
@@ -356,7 +361,7 @@ padding: 20px 24px 4px 24px;
   justify-content: space-between;
 }
 
-.list-card li {
+.list-card-item {
 background-color: var(--background-color-white);
 max-width: calc(100% / 4);
 }
@@ -365,7 +370,7 @@ max-width: calc(100% / 4);
   padding: 30px 10px 5px 10px;
 }
 
-.footer-list li:not(:last-child){
+.footer-list-item {
   padding-bottom: 9px;
 }
 
@@ -378,7 +383,7 @@ max-width: calc(100% / 4);
   justify-content: center;
 }
 
-.portfolio-buttons li:not(:last-child) {
+.portfolio-buttons-item {
   margin-right: 8px;
 }
 
@@ -393,18 +398,11 @@ max-width: calc(100% / 4);
   margin-bottom: 30px;
 }
 
-img {
-  display: block;
-}
 .portfolio-list-text {
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 20px;
 }
-/* 
-.examples {
-  padding-bottom: 94px;
-} */
 
 .border {
   border-left: solid 1px #EEEEEE;
