@@ -281,14 +281,14 @@ padding: 20px 24px 4px 24px;
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .header-nav {
   display: flex;
   align-items: center;
   height: 80px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 /* Navigation */
