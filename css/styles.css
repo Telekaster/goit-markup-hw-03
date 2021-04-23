@@ -101,6 +101,7 @@ footer {
 
 /* Логотип */
 .logo {
+  display: flex;
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -116,6 +117,11 @@ footer {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--brandcolor);
+}
+
+.header {
+  display: flex;
+  align-items: center;
 }
 
 .header-links {
@@ -288,7 +294,7 @@ padding: 20px 24px 4px 24px;
 .header-nav {
   display: flex;
   align-items: center;
-  height: 80px;
+  /* height: 80px; */
 }
 
 /* Navigation */
