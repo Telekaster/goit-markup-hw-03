@@ -3,14 +3,14 @@ html {
 }
 
 :root {
---brandcolor: #2196f3;
---main-text-color: #757575;
---black-text-color: #212121;
---background-color: #2F303A;
---background-color-white: #FFFFFF;
---background-color-grey: #f5f4fa;
---nav-border: #ECECEC;
---portfolio-border: #EEEEEE;
+  --brandcolor: #2196f3;
+  --main-text-color: #757575;
+  --black-text-color: #212121;
+  --background-color: #2f303a;
+  --background-color-white: #ffffff;
+  --background-color-grey: #f5f4fa;
+  --nav-border: #ececec;
+  --portfolio-border: #eeeeee;
 }
 
 h1,
@@ -20,7 +20,7 @@ h4,
 h5,
 h6,
 p {
-margin: 0;
+  margin: 0;
 }
 
 img {
@@ -81,15 +81,14 @@ h5 {
   letter-spacing: 0.06em;
 }
 
-address{
-  font-style:normal
+address {
+  font-style: normal;
 }
 
 footer {
   background: var(--background-color);
   padding-top: 60px;
   padding-bottom: 60px;
-
 }
 
 /* Основной текст */
@@ -133,11 +132,11 @@ footer {
 }
 
 .header-mailtel {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--main-text-color)
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
 }
 
 /* Список */
@@ -149,33 +148,32 @@ color: var(--main-text-color)
 
 /* Герой */
 .hero {
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: var(--background-color-white);
-background: var(--background-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--background-color-white);
+  background: var(--background-color);
 }
 
-
 .btn {
-margin: auto;
-padding: 10px 32px 10px 32px;
-font-weight: bold;
-font-size: 16px;
-line-height: 1.88;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-color: var(--background-color-white);
-background-color: var(--brandcolor);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-cursor: pointer;
-border: 0;
+  margin: auto;
+  padding: 10px 32px 10px 32px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--background-color-white);
+  background-color: var(--brandcolor);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  border: 0;
 }
 
 .btn2 {
@@ -245,13 +243,13 @@ border: 0;
 }
 
 .our-work {
-font-weight: bold;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: var(--black-text-color);
-margin: auto;
-padding: 20px 24px 4px 24px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--black-text-color);
+  margin: auto;
+  padding: 20px 24px 4px 24px;
 }
 
 .active-page {
@@ -272,7 +270,6 @@ padding: 20px 24px 4px 24px;
 }
 
 /* Flex-Box */
-
 
 /* Header */
 .section {
@@ -318,7 +315,7 @@ padding: 20px 24px 4px 24px;
   margin-left: auto;
 }
 
-.list-phone-item:not(:last-child){
+.list-phone-item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -342,7 +339,6 @@ padding: 20px 24px 4px 24px;
   justify-content: space-between;
 }
 
-
 .main-content-card-item {
   padding-right: 30px;
 }
@@ -362,14 +358,13 @@ padding: 20px 24px 4px 24px;
 .list-card {
   display: flex;
   flex-wrap: wrap;
-  flex-basis: calc(100% / 4)
   margin: auto;
   justify-content: space-between;
 }
 
 .list-card-item {
-background-color: var(--background-color-white);
-max-width: calc(100% / 4);
+  background-color: var(--background-color-white);
+  flex-basis: calc((100% - 90px) / 4);
 }
 
 .team-names {
@@ -396,12 +391,12 @@ max-width: calc(100% / 4);
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  flex-basis: calc(100% / 3);
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
 .portfolio-list-item {
   margin-bottom: 30px;
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .portfolio-list-text {
@@ -411,9 +406,9 @@ max-width: calc(100% / 4);
 }
 
 .border {
-  border-left: solid 1px #EEEEEE;
-  border-bottom: solid 1px #EEEEEE;
-  border-right: solid 1px #EEEEEE;
+  border-left: solid 1px #eeeeee;
+  border-bottom: solid 1px #eeeeee;
+  border-right: solid 1px #eeeeee;
 }
 
 .header-line {
@@ -421,4 +416,3 @@ max-width: calc(100% / 4);
   border: #2196f3;
   border-bottom: 1px solid var(--nav-border);
 }
-
